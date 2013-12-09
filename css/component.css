@@ -182,6 +182,64 @@
 }
 
 
+/*  menu  */
+
+
+
+a {
+    color: #fff4c8;
+    display: block;
+}
+
+.header-container {
+    text-align: center;
+    border-bottom: 1px solid #e9c019;
+    background-color: #f7cf30;
+}
+a.menu-link {
+    /*float: right;*/
+    display: block;
+    padding: 1em;
+}
+nav[role=navigation] {
+    clear: both;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.js nav[role=navigation] {
+    overflow: hidden;
+    max-height: 0;
+}
+nav[role=navigation].active {
+    max-height: 15em;
+    background-color: #e9c019;
+}
+nav[role=navigation] ul {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #e9c019;
+}
+nav[role=navigation] a, .menu-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav[role=navigation] li a {
+    display: block;
+    padding: 0.8em;
+    border-bottom: 1px solid #e9c019;
+}
+
+nav[role=navigation] li a:hover {
+    background-color: #f7cf30;
+}
+
+
+
+
 @media screen and (max-width: 62.75em) {
 	.cbp-ig-grid li {
 		width: 50%;
