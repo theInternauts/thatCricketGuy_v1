@@ -1,3 +1,4 @@
-Created by Codrops
+thatCricketGuy_v1
+=================
 
-Please read more about our license here: http://tympanus.net/codrops/licensing/ 
+based on the Code Drops: Responsive Grid Blueprint
